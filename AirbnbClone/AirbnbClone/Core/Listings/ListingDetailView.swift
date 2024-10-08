@@ -35,9 +35,9 @@ struct ListingDetailView: View {
                                 .fill(.white)
                                 .frame(width: 32, height: 32)
                         }
-                        .padding(32)
+                        .padding(.top, 55)
+                        .padding(.leading, 32)
                 }
-
             }
             
             VStack(alignment: .leading, spacing: 8) {
